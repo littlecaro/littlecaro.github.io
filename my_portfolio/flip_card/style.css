@@ -1,0 +1,32 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgb(211, 211, 211);
+    margin: 0;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(31, 104, 128);
+    border-bottom: 1px solid black;
+}
+p {
+    line-height: 0%;
+}
+div {
+    display: inline-block;
+    outline: 2px solid black;
+    border-radius: 2%;
+    margin: 20px;
+    background-color: white;
+    overflow: hidden;
+    width: 200px;
+    height: 270px;
+    text-align: center;
+    transition: 0.15s;
+    /* box-shadow: 10px rgb(41, 40, 40); */
+}
+div:hover {
+    transform: scale(1.1);
+}

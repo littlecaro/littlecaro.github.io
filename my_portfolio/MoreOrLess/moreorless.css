@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "nanum";
+    src: url(./Nanum_Pen_Script/NanumPenScript-Regular.ttf);
+}
+body {
+    background:#3d348b;
+}
+div {
+    font-family: 'nanum';
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'nanum';
+    color: white;
+}
+button {
+    background-color: #ef476f;
+    color: aliceblue;
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+* {
+    outline: 3px solid purple;
+}
